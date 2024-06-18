@@ -5,7 +5,9 @@ export const signUp = async (req, res, next) => {
   const { username, email, password } = req.body;
 
   //hasing password with bcrypt
-  const hashedPassword = bcryptjs.hashSync(password, 10);
+  const salt = bcryptjs.genSaltSync(10);
+
+  const hashedPassword = bcryptjs.hashSync(password, salt);
 
   //save to DB
   const newUser = new User({ username, email, password: hashedPassword });
