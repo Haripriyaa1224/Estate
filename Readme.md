@@ -27,13 +27,13 @@ GET / [/api/auth/signout](https://estatebackend-yojy.onrender.com/api/auth/signo
 ### User EndPoints
 
 #### Update User Details
-POST / [/update/:id](https://estatebackend-yojy.onrender.com/update/:id)
+POST / [/update/:id](https://estatebackend-yojy.onrender.com/api/user/update/:id)
 
 #### Delete User
-DELETE / [/delete/:id](https://estatebackend-yojy.onrender.com/delete/:id)
+DELETE / [/delete/:id](https://estatebackend-yojy.onrender.com/api/user/delete/:id)
 
 #### Get Listing of specified User
-GET / [/listings/:id](https://estatebackend-yojy.onrender.com/listings/:id)
+GET / [/listings/:id](https://estatebackend-yojy.onrender.com/api/user/listings/:id)
 
 #### Get User
 GET / [:id](https://estatebackend-yojy.onrender.com/api/user/:id)
