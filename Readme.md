@@ -8,29 +8,34 @@
 
 ## END POINTS
 
-### END Points
-
-#### test
+#### Test
 
 [Test Link](https://estatebackend-yojy.onrender.com/api/user/test)
 
 #### SignUp / Register
-
 POST / [/api/auth/signup](https://estatebackend-yojy.onrender.com/api/auth/signup)
 
 #### Signin
-
 POST / [/api/auth/signin](https://estatebackend-yojy.onrender.com/api/auth/signin)
 
 #### Google Account
-
 POST / [/api/auth/google](https://estatebackend-yojy.onrender.com/api/auth/google)
 
 #### Signout
-
 GET / [/api/auth/signout](https://estatebackend-yojy.onrender.com/api/auth/signout)
 
+### User EndPoints
 
-<!-- /api/user
+#### Update User Details
+POST / [/update/:id](https://estatebackend-yojy.onrender.com/update/:id)
 
-/api/listing -->
+#### Delete User
+DELETE / [/delete/:id](https://estatebackend-yojy.onrender.com/delete/:id)
+
+#### Get Listing of specified User
+GET / [/listings/:id](https://estatebackend-yojy.onrender.com/listings/:id)
+
+#### Get User
+GET / [:id](https://estatebackend-yojy.onrender.com/api/user/:id)
+
+
