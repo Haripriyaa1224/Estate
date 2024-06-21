@@ -4,7 +4,7 @@
 
 ## Base URL
 
-[https://estate-noln.onrender.com/](https://estate-noln.onrender.com/)
+[https://estatebackend-yojy.onrender.com/](https://estatebackend-yojy.onrender.com/)
 
 ## END POINTS
 
@@ -12,7 +12,7 @@
 
 #### SignUp / Register
 
-POST / [/api/auth/signup]
+POST / [/api/auth/signup](https://estatebackend-yojy.onrender.com/api/auth/signup)
 
 #### Signin
 
