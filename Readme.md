@@ -24,8 +24,6 @@
 
 # API Template
 
-## Decription
-
 ## Base URL
 
 [https://estatebackend-yojy.onrender.com/](https://estatebackend-yojy.onrender.com/)
