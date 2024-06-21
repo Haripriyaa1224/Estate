@@ -27,15 +27,26 @@ GET / [/api/auth/signout](https://estatebackend-yojy.onrender.com/api/auth/signo
 ### User EndPoints
 
 #### Update User Details
-POST / [/update/:id](https://estatebackend-yojy.onrender.com/api/user/update/:id)
+POST / [api/user/update/:id](https://estatebackend-yojy.onrender.com/api/user/update/:id)
 
 #### Delete User
-DELETE / [/delete/:id](https://estatebackend-yojy.onrender.com/api/user/delete/:id)
+DELETE / [api/user/delete/:id](https://estatebackend-yojy.onrender.com/api/user/delete/:id)
 
 #### Get Listing of specified User
-GET / [/listings/:id](https://estatebackend-yojy.onrender.com/api/user/listings/:id)
+GET / [api/user/listings/:id](https://estatebackend-yojy.onrender.com/api/user/listings/:id)
 
 #### Get User
-GET / [:id](https://estatebackend-yojy.onrender.com/api/user/:id)
+GET / [api/user/:id](https://estatebackend-yojy.onrender.com/api/user/:id)
 
+### Listing EndPoints
+#### Created a new Lisiting
+POST / [/api/listing/create](https://estatebackend-yojy.onrender.com/api/listing/create)
+#### Delete a Specific Listing
+DELETE / [/api/listing//delete/:id](https://estatebackend-yojy.onrender.com/api/listing//delete/:id)
+#### Update a Listing
+POST / [api/listing/update/:id](https://estatebackend-yojy.onrender.com/api/listing//delete/:id)
+#### Get Specific Lisitng
+GET / [api/listing/get/:id](https://estatebackend-yojy.onrender.com/api/listing/get/:id)
+#### Get All Listings
+GET / [api/listing/get](https://estatebackend-yojy.onrender.com/api/listing/get)
 
