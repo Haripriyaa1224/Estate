@@ -1,7 +1,3 @@
-# HavenHorizon
-
-<p>Welcome to Sahand Estate, the best place to find your next perfect home. Our website offers a wide range of properties for you to choose from, making the search for your dream home effortless.</p>
-
 ## About the Project
 
 <p>I developed a comprehensive real estate platform designed to make property searching, buying, and selling a seamless experience. Our goal is to connect buyers with their ideal properties while providing sellers with a user-friendly platform to list their properties.</p>
